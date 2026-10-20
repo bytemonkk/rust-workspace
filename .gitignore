@@ -1,0 +1,12 @@
+cat > .gitignore <<'EOF'
+# Rust build artifacts
+target/
+
+# Secrets and environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
